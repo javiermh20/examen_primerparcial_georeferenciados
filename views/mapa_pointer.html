@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/ol/ol.css">
+    <link rel="stylesheet" href="/styles/mapa_pointer.css" />
+    <title>Ubicación de dos puntos</title>
+</head>
+
+<body>
+    <div class="divContainer">
+        <div>
+            <h1>Examen Delivery Javier Mejia</h1>
+            <h2>Mapa de entregas</h2>
+            <label>¿Vez tu punto <span id="nombre"></span>?</label>
+            <ul class="lista" hidden="true">
+                <li> Longitud: <span id="longitud"></span></li>
+                <li> Latitud: <span id="latitud"></span></li>
+            </ul>
+        </div>
+        <div>
+            <div id="map" class="map"></div>
+        </div>
+    </div>
+    <script type="module" src="/javascript/mapa_pointer.js"></script>
+</body>
+</html>

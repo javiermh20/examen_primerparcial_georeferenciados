@@ -1,0 +1,51 @@
+.map{
+    margin: 10px 10px 300px 300px;
+    width: 700px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+.layer-switcher{
+    font-family: sans-serif;
+    font-size: small;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.divContainer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.lista {
+    font-family: sans-serif;
+    font-size: small;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: x-large;
+}

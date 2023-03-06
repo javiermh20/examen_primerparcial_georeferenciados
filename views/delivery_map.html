@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/node_modules/ol/ol.css">
+  <link rel="stylesheet" href="/styles/delivery_map.css" />
+  <script src="https://cdn.jsdelivr.net/npm/elm-pep@1.0.6/dist/elm-pep.js"></script>
+  <script type="module" src="/javascript/delivery_map.js"></script>
+  <title>Examen Delivery</title>
+</head>
+
+<body>
+  <div class="divContainer">
+    <div>
+      <h1>Examen Delivery Javier Mejia</h1>
+      <h2>Mapa de entregas</h2>
+    </div>
+    <form id="formulario" action="mapa_pointer.html" method="POST">
+      <input type="text" id="txtNombre" class="input" placeholder="Ingrese su nombre">
+      <input type="text" id="txtLongitude" class="input" placeholder="Ingrese la longitud">
+      <input type="text" id="txtLatitude" class="input" placeholder="Ingrese la latitud">
+      <button type="submit" id="btnEnviar" class="btn">Enviar</button> 
+    </form>
+  </div>
+</body>
+
+</html>
