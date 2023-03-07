@@ -2,7 +2,7 @@ import Feature from "ol/Feature.js";
 import Map from "ol/Map.js";
 import Point from "ol/geom/Point.js";
 import View from "ol/View.js";
-import {Style, Fill, Circle} from 'ol/style'
+import { Style, Fill, Circle } from 'ol/style'
 import { OSM, Vector as VectorSource } from "ol/source.js";
 import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer.js";
 import { fromLonLat } from "ol/proj.js";
@@ -86,8 +86,8 @@ function agregarMarcadorConElFormulario(longitud, latitud) {
   const x = longitud;
   const y = latitud;
   const geom = new Point(fromLonLat([x, y]));
-  const feature1 = new Feature(geom);
-  feature1.setStyle(markerStyle2);
-  source.addFeature(feature1);
+  const feature = new Feature(geom);
+  feature.setStyle(markerStyle2);
+  source.addFeature(feature);
 }
 
